@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/p/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/httpp/:match/:url*", "destination": "http://:match/:url*" }
+    { "source": "/:match/:url*", "destination": "https://:match/:url*" },
+    { "source": "/h/:match/:url*", "destination": "http://:match/:url*" }
   ]
 }
